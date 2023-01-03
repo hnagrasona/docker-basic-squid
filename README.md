@@ -15,6 +15,7 @@ Cd into the project directory and use the `htpasswd` program from the [httpd](ht
 
 If on **Windows**, you can use an online htpasswd generator such as https://wtools.io/generate-htpasswd-online and copy the resulting output to the `conf/passwd` file in the project directory.
 
+
 Build the image and run container
 ---------------------------------
 From the project directory build and tag the image:
@@ -52,7 +53,7 @@ Proxy user auth:
 
 No proxy user auth returns 407 response:
 
-    curl -I -x localhost:3128 http://google.com
+    curl -I -x localhost:3128 https://google.com
 
     HTTP/1.1 407 Proxy Authentication Required
     Server: squid/3.3.8
