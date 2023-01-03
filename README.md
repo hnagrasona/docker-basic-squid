@@ -1,7 +1,7 @@
 docker-basic-squid
 ==================
 
-A non-caching forward proxy using [Squid](http://www.squid-cache.org/) with Basic authentication. Forked from [mafr/docker-squid](https://github.com/mafr/docker-squid)
+A non-caching forward proxy using [Squid](http://www.squid-cache.org/) with Basic authentication. Based on [mafr/docker-squid](https://github.com/mafr/docker-squid)
 
 Setting up a user
 -----------------
